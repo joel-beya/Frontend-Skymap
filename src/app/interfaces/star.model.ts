@@ -1,0 +1,41 @@
+// star.model.ts
+
+export interface Star {
+  absmag: number;
+  base: number;
+  bayer: string;
+  bf: string;
+  ci: number;
+  comp: number;
+  comp_primary: number;
+  con: string;
+  dec: number;
+  decrad: number;
+  dist: number;
+  flam: number;
+  gl: number;
+  hd: number;
+  hip: number;
+  hr: number;
+  id: number;
+  lum: number;
+  mag: number;
+  pmdec: number;
+  pmdecrad: number;
+  pmra: number;
+  pmrarad: number;
+  proper: number;
+  ra: number;
+  rarad: number;
+  rv: number;
+  spect: string;
+  var: number;
+  var_max: number;
+  var_min: number;
+  vx: number;
+  vy: number;
+  vz: number;
+  x: number;
+  y: number;
+  z: number;
+}
